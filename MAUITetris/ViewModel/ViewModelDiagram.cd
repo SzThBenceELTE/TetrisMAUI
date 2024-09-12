@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MAUITetris.ViewModel.DelegateCommand">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MAUITetris.ViewModel.MainViewModel">
+    <Position X="1.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACACoggkAUI4kEAQAwDCUABANMAAxECgAQIAIAnIgQU=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAUITetris.ViewModel.StoredGameBrowserViewModel">
+    <Position X="6.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIANAQAAAAAgAAAAAAEAAAAABAEAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\StoredGameBrowserViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAUITetris.ViewModel.StoredGameEventArgs">
+    <Position X="14" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\StoredGameEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAUITetris.ViewModel.StoredGameViewModel">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgAAAAABAAAAQAAAAAAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>ViewModel\StoredGameViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAUITetris.ViewModel.TetrisField">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAEAAAAAAAAAAAACIAAAAiAAAYgA=</HashCode>
+      <FileName>ViewModel\TetrisField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAUITetris.ViewModel.ViewModelBase" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

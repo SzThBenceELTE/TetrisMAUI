@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUITetris.View.SettingsPage"
+             Title="Settings"
+             BackgroundColor="LightGrey">
+    <StackLayout Orientation="Vertical" Spacing="8" Margin="4" HorizontalOptions="CenterAndExpand">
+        <Button Command="{Binding LoadGameCommand}" IsEnabled="{Binding CanSaveLoad}" Text="Load" />
+        <Button Command="{Binding SaveGameCommand}" IsEnabled="{Binding CanSaveLoad}" Text="Save" />
+
+        <Label Text="Gamesize"/>
+        <Button Command="{Binding SmallTableCommand}" Text="Small"/>
+        <Button Command="{Binding MediumTableCommand}" Text="Medium"/>
+        <Button Command="{Binding LargeTableCommand}" Text="Large"/>
+    </StackLayout>
+</ContentPage>

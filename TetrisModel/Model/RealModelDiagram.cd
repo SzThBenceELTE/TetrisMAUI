@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TetrisModel.Model.Block">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAAFCAgABAAAAAAAAAACAgAAAAAAAAABCEAAIgQ=</HashCode>
+      <FileName>Model\Block.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="tiles" />
+      <Property Name="startoffset" />
+      <Property Name="rot" />
+      <Property Name="offset" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TetrisModel.Model.I_Block">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\I-Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.J_Block">
+    <Position X="16.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\J-Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.L_Block">
+    <Position X="18.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\L-Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.NextBlock">
+    <Position X="13.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARCAAIACAA=</HashCode>
+      <FileName>Model\NextBlock.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="next" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TetrisModel.Model.O_Block">
+    <Position X="9.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\O_Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.Position">
+    <Position X="17" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.RotationFunctions">
+    <Position X="17" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Rotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.S_Block">
+    <Position X="12" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\S-Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.State">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAABABCAAgQQQAFAAAAAAAAAggAAAAAAAEABAEGAgLA=</HashCode>
+      <FileName>Model\State.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="current" />
+      <Property Name="generator" />
+      <Property Name="table" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TetrisModel.Model.StoredGameBrowserModel">
+    <Position X="21.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAgAAAAAAAAEAAAAAAAgAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\StoredGameBrowserModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_store" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="StoredGames" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TetrisModel.Model.StoredGameModel">
+    <Position X="19" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\StoredGameModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.T_Block">
+    <Position X="14.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\T-Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.TetrisTable">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAEAAASBASBBAAICACAAQACgAmAgAAAAAACA=</HashCode>
+      <FileName>Model\TetrisTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisModel.Model.Z_Block">
+    <Position X="21" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Z-Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TetrisModel.Persistence.IStore" Collapsed="true">
+    <Position X="21.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Persistence\IStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TetrisModel.Model.Rotation">
+    <Position X="18.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAADAAAAQA=</HashCode>
+      <FileName>Model\Rotation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
